@@ -1,0 +1,35 @@
+{
+    "name": "apprestapi",
+    "version": "1.0.0",
+    "description": "Vehicle REST API",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/budiaprisal/VehicleRESTAPI.git"
+    },
+    "keywords": [
+        "vehicle",
+        "rest",
+        "api",
+        "nodejs"
+    ],
+    "author": "budiaprisal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/budiaprisal/VehicleRESTAPI/issues"
+    },
+    "homepage": "https://github.com/budiaprisal/VehicleRESTAPI#readme",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "ip": "^1.1.8",
+        "jsonwebtoken": "^9.0.0",
+        "md5": "^2.3.0",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1"
+    }
+}
